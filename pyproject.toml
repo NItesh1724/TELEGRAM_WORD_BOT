@@ -1,0 +1,15 @@
+[packages]
+flask = "*"
+requests = "*"
+
+[project]
+name = "word-game-bot"
+version = "1.0.0"
+description = "24/7 Telegram Word Game Bot"
+requires-python = ">=3.8"
+dependencies = [
+    "python-telegram-bot==20.3",
+    "requests>=2.28.0",
+    "flask>=2.2.0",
+    "telegram>=0.0.1",
+]
